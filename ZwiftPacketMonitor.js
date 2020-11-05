@@ -220,7 +220,7 @@ class ZwiftPacketMonitor extends EventEmitter {
                         break
                       case 5: // chat message
                         payload = payload5Packet.decode(new Uint8Array(player_update.payload))
-						                        this.emit('incomingPlayerSentMessage', player_update, payload, packet.world_time, ret.info.dstport, ret.info.dstaddr)
+						            this.emit('incomingPlayerSentMessage', player_update, payload, packet.world_time, ret.info.dstport, ret.info.dstaddr)
                         break
                       case 4: // ride on
                         payload = payload4Packet.decode(new Uint8Array(player_update.payload))

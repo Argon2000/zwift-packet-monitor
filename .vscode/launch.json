@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\test\\test-live-zwift-packet-info-debug.js"
+            "program": "${workspaceFolder}\\test\\test-live-incoming-chat.js"
         }
     ]
 }
